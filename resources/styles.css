@@ -60,6 +60,14 @@ html {
   border-width: 1px;
   border-color: black;
 }
+.nav {
+  height: 100px;
+  width: 200px;
+}
+.nav_img {
+  height: 100%;
+  width: 100%;
+}
 
 /*==============Section 1==================*/
 
