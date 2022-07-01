@@ -5,11 +5,12 @@ html {
 
 /*==============Head==================*/
 #head {
-  height: 300px;
+  height: 270px;
   width: 100%;
   border-color: black;
   border-width: 1px;
   border-style: solid;
+  text-align: center;
 }
 #head_1 {
   height: 30%;
