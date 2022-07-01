@@ -2,17 +2,45 @@
 html {
   scroll-behavior: smooth;
 }
-* {
-  padding: 0;
-}
+
 /*==============Head==================*/
 #head {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border-color: black;
   border-width: 1px;
   border-style: solid;
 }
+#head_1 {
+  height: 30%;
+  width: 100%;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+#head_1_1 {
+  height: 100%;
+  width: 30%;
+  border-right-color: black;
+  border-right-width: 1px;
+  border-right-style: solid;
+  float: left;
+  padding: 0 auto;
+  text-align: center;
+}
+
+#head_1_2 {
+  height: 100%;
+  width: fit-content;
+  border-left-color: black;
+  border-left-width: 1px;
+  border-left-style: solid;
+  float: right;
+  letter-spacing: 2em;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 /*==============Navigation==================*/
 #navigation {
   height: 400px;
