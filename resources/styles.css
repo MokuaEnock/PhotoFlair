@@ -51,6 +51,7 @@ html {
   border-color: black;
   border-width: 1px;
   height: fit-content;
+  text-align: center;
 }
 .nav {
   letter-spacing: 0.3em;
@@ -64,14 +65,18 @@ html {
 }
 /*==============Class sect==================*/
 .sect {
-  height: 800px;
+  height: 1000px;
   width: 100%;
   margin-top: 10px;
   border-style: solid;
   border-width: 1px;
   border-color: black;
 }
-
+.sect h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 5vh;
+}
 /*==============Section 1==================*/
 
 /*==============Section 2==================*/
