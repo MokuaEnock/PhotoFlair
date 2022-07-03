@@ -2,6 +2,13 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+body a {
+  text-decoration: none;
+  background-color: #d0f0c0;
+}
 
 /*==============Head==================*/
 #head {
@@ -127,7 +134,24 @@ html {
 #foot_info {
   height: 100%;
   width: 25%;
+  line-height: 500%;
+  text-align: center;
   border-style: solid;
   border-width: 1px;
   border-color: black;
+}
+#foot_info ul {
+  list-style: none;
+}
+#foot_info button {
+  height: 60px;
+  width: 60%;
+  background-color: seagreen;
+  border-radius: 10px;
+}
+#foot_info a {
+  color: white;
+  background-color: seagreen;
+  font-size: 150%;
+  font-weight: 800;
 }
