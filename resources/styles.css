@@ -28,7 +28,7 @@ body a {
 }
 #head_1_1 {
   height: 100%;
-  width: 30%;
+  width: 33%;
   border-right-color: black;
   border-right-width: 1px;
   border-right-style: solid;
@@ -48,7 +48,26 @@ body a {
   padding-left: 3%;
   padding-right: 3%;
 }
-
+#head em,
+strong {
+  font-weight: 800;
+  color: seagreen;
+}
+#head h1 {
+  color: seagreen;
+  font-size: 250%;
+}
+#h_par2 {
+  font-size: 130%;
+}
+#h_par3 {
+  font-size: 90%;
+  font-weight: 400;
+}
+#h_par3 strong {
+  font-weight: 800;
+  font-size: 120%;
+}
 /*==============Navigation==================*/
 #navigation {
   height: 400px;
