@@ -104,28 +104,25 @@ body a {
   margin-bottom: 5%;
   display: flex;
   flex-direction: row;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
 }
 #foot_logo {
   width: 25%;
   height: 100%;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
 }
 #foot_logo1 {
   width: 90%;
   height: 60%;
 }
+#foot_logo {
+  font-size: 150%;
+  text-align: center;
+}
 #foot_part {
   height: 100%;
   width: 50%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
 }
 #foot_part h2 {
   text-align: center;
@@ -136,9 +133,6 @@ body a {
   width: 25%;
   line-height: 500%;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
 }
 #foot_info ul {
   list-style: none;
